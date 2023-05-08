@@ -1,0 +1,48 @@
+.main{
+    /* background: url("../../assets/back1.png"); */
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.intro{
+    display: grid;
+    justify-content: center;
+}
+.intro-container{
+    margin-top: 10rem;
+}
+.intro-container img{
+    box-shadow: rgb(0, 0, 0) 0px 40px 30px -1px;
+    height: 250px;
+}
+.intro-logo{
+    color: white;
+    position: absolute;
+    left: 140px;
+    margin-top: 30rem;
+}
+.intro-apply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    right: 0;
+    margin-top: 30rem;
+    margin-right: 140px;
+}
+.fa-arrow-right,
+.fa-arrow-down{
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 50%;
+    transition:.2s ease;
+}
+
+.fa-arrow-right:hover{
+    transform: translateX(00.25rem);
+}
